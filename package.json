@@ -1,6 +1,6 @@
 {
   "name": "crypt-oink-query",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "private": true,
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "truffle test",
     "migrate": "truffle migrate --reset",
-    "migrate:live": "truffle migrate --network live --verbose-rpc",
+    "migrate:live": "truffle migrate --network live",
     "compile": "truffle compile"
   },
   "keywords": [],

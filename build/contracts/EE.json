@@ -67,14 +67,14 @@
     "absolutePath": "/D/work/WebStorm/crypt-oink-query/contracts/i/EE.sol",
     "exportedSymbols": {
       "EE": [
-        756
+        753
       ]
     },
-    "id": 757,
+    "id": 754,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 733,
+        "id": 730,
         "literals": [
           "solidity",
           ">=",
@@ -93,9 +93,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 756,
+        "id": 753,
         "linearizedBaseContracts": [
-          756
+          753
         ],
         "name": "EE",
         "nodeType": "ContractDefinition",
@@ -103,22 +103,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 748,
+            "id": 745,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getAuction",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 736,
+              "id": 733,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 735,
+                  "id": 732,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "86:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -127,7 +127,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 734,
+                    "id": 731,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "86:7:4",
@@ -143,15 +143,15 @@
               "src": "75:34:4"
             },
             "returnParameters": {
-              "id": 747,
+              "id": 744,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 738,
+                  "id": 735,
                   "name": "seller",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "143:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -160,7 +160,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 737,
+                    "id": 734,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:7:4",
@@ -175,10 +175,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 740,
+                  "id": 737,
                   "name": "startingPrice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "168:21:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -187,7 +187,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 739,
+                    "id": 736,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "168:7:4",
@@ -201,10 +201,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 742,
+                  "id": 739,
                   "name": "endingPrice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "200:19:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -213,7 +213,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 741,
+                    "id": 738,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "200:7:4",
@@ -227,10 +227,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 744,
+                  "id": 741,
                   "name": "duration",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "230:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -239,7 +239,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 743,
+                    "id": 740,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "230:7:4",
@@ -253,10 +253,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 746,
+                  "id": 743,
                   "name": "startedAt",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "257:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -265,7 +265,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 745,
+                    "id": 742,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "257:7:4",
@@ -280,7 +280,7 @@
               ],
               "src": "132:149:4"
             },
-            "scope": 756,
+            "scope": 753,
             "src": "56:226:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -289,22 +289,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 755,
+            "id": 752,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getCurrentPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 751,
+              "id": 748,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 750,
+                  "id": 747,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 755,
+                  "scope": 752,
                   "src": "323:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -313,7 +313,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 749,
+                    "id": 746,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "323:7:4",
@@ -329,15 +329,15 @@
               "src": "312:34:4"
             },
             "returnParameters": {
-              "id": 754,
+              "id": 751,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 753,
+                  "id": 750,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 755,
+                  "scope": 752,
                   "src": "380:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -346,7 +346,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 752,
+                    "id": 749,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "380:7:4",
@@ -361,14 +361,14 @@
               ],
               "src": "369:25:4"
             },
-            "scope": 756,
+            "scope": 753,
             "src": "288:107:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 757,
+        "scope": 754,
         "src": "36:362:4"
       }
     ],
@@ -378,14 +378,14 @@
     "absolutePath": "/D/work/WebStorm/crypt-oink-query/contracts/i/EE.sol",
     "exportedSymbols": {
       "EE": [
-        756
+        753
       ]
     },
-    "id": 757,
+    "id": 754,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 733,
+        "id": 730,
         "literals": [
           "solidity",
           ">=",
@@ -404,9 +404,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 756,
+        "id": 753,
         "linearizedBaseContracts": [
-          756
+          753
         ],
         "name": "EE",
         "nodeType": "ContractDefinition",
@@ -414,22 +414,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 748,
+            "id": 745,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getAuction",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 736,
+              "id": 733,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 735,
+                  "id": 732,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "86:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -438,7 +438,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 734,
+                    "id": 731,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "86:7:4",
@@ -454,15 +454,15 @@
               "src": "75:34:4"
             },
             "returnParameters": {
-              "id": 747,
+              "id": 744,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 738,
+                  "id": 735,
                   "name": "seller",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "143:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -471,7 +471,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 737,
+                    "id": 734,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:7:4",
@@ -486,10 +486,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 740,
+                  "id": 737,
                   "name": "startingPrice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "168:21:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -498,7 +498,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 739,
+                    "id": 736,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "168:7:4",
@@ -512,10 +512,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 742,
+                  "id": 739,
                   "name": "endingPrice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "200:19:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -524,7 +524,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 741,
+                    "id": 738,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "200:7:4",
@@ -538,10 +538,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 744,
+                  "id": 741,
                   "name": "duration",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "230:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -550,7 +550,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 743,
+                    "id": 740,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "230:7:4",
@@ -564,10 +564,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 746,
+                  "id": 743,
                   "name": "startedAt",
                   "nodeType": "VariableDeclaration",
-                  "scope": 748,
+                  "scope": 745,
                   "src": "257:17:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -576,7 +576,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 745,
+                    "id": 742,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "257:7:4",
@@ -591,7 +591,7 @@
               ],
               "src": "132:149:4"
             },
-            "scope": 756,
+            "scope": 753,
             "src": "56:226:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -600,22 +600,22 @@
           {
             "body": null,
             "documentation": null,
-            "id": 755,
+            "id": 752,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getCurrentPrice",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 751,
+              "id": 748,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 750,
+                  "id": 747,
                   "name": "_tokenId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 755,
+                  "scope": 752,
                   "src": "323:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -624,7 +624,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 749,
+                    "id": 746,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "323:7:4",
@@ -640,15 +640,15 @@
               "src": "312:34:4"
             },
             "returnParameters": {
-              "id": 754,
+              "id": 751,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 753,
+                  "id": 750,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 755,
+                  "scope": 752,
                   "src": "380:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -657,7 +657,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 752,
+                    "id": 749,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "380:7:4",
@@ -672,14 +672,14 @@
               ],
               "src": "369:25:4"
             },
-            "scope": 756,
+            "scope": 753,
             "src": "288:107:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 757,
+        "scope": 754,
         "src": "36:362:4"
       }
     ],
@@ -691,7 +691,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-06T14:14:07.657Z",
+  "updatedAt": "2019-04-07T03:56:49.361Z",
   "devdoc": {
     "methods": {}
   },

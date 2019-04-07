@@ -69,11 +69,8 @@ contract Q {
     ){
         uint256 tSupply = entityContract.totalSupply();
         Entity memory getEntity = _getEntity(_tokenId);
-        getEntity.owner = entityContract.ownerOf(_tokenId);
         Auction memory getAuctionSell = _getAuctionSell(_tokenId);
-        getAuctionSell.currentPrice = sellContract.getCurrentPrice(_tokenId);
         Auction memory getAuctionSeed = _getAuctionSeed(_tokenId);
-        getAuctionSeed.currentPrice = seedContract.getCurrentPrice(_tokenId);
 
         totalSupply = tSupply;
         entity = getEntity;
@@ -88,11 +85,8 @@ contract Q {
     ){
         uint256 totalSupply = entityContract.totalSupply();
         Entity memory getEntity = _getEntity(_tokenId);
-        getEntity.owner = entityContract.ownerOf(_tokenId);
         Auction memory getAuctionSell = _getAuctionSell(_tokenId);
-        getAuctionSell.currentPrice = sellContract.getCurrentPrice(_tokenId);
         Auction memory getAuctionSeed = _getAuctionSeed(_tokenId);
-        getAuctionSeed.currentPrice = seedContract.getCurrentPrice(_tokenId);
         one = [
             getEntity.isBreeding,
             getEntity.isReady
@@ -138,6 +132,7 @@ contract Q {
             uint256 generation,
             uint256 dna
         ) = entityContract.getEntity(_tokenId);
+        address ownerOf = entityContract.ownerOf(_tokenId);
         Entity memory e = Entity(
             isBreeding,
             isReady,
@@ -149,7 +144,7 @@ contract Q {
             seederId,
             generation,
             dna,
-            address(0)
+            ownerOf
         );
         return e;
     }
@@ -163,21 +158,35 @@ contract Q {
     }
 
     function _getAuction(uint256 _tokenId, EE _contract) internal view returns (Auction memory) {
-        (
+        address ownerOf = entityContract.ownerOf(_tokenId);
+        Auction memory a;
+        if (ownerOf == address(_contract)) {
+            uint256 currentPrice = _contract.getCurrentPrice(_tokenId);
+            (
             address seller,
             uint256 startingPrice,
             uint256 endingPrice,
             uint256 duration,
             uint256 startedAt
-        ) = _contract.getAuction(_tokenId);
-        Auction memory a = Auction(
-            seller,
-            startingPrice,
-            endingPrice,
-            duration,
-            startedAt,
-            uint256(0)
-        );
+            ) = _contract.getAuction(_tokenId);
+            a = Auction(
+                seller,
+                startingPrice,
+                endingPrice,
+                duration,
+                startedAt,
+                currentPrice
+            );
+        } else {
+            a = Auction(
+                address(0),
+                uint256(0),
+                uint256(0),
+                uint256(0),
+                uint256(0),
+                uint256(0)
+            );
+        }
         return a;
     }
 

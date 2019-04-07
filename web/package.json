@@ -1,6 +1,6 @@
 {
   "name": "crypt-oink-query-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "private": true,
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "planethouki",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.11",
     "web3": "^1.0.0-beta.52"
   },
   "devDependencies": {

@@ -181,7 +181,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 732,
+        "sourceUnit": 729,
         "src": "36:19:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -192,7 +192,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 757,
+        "sourceUnit": 754,
         "src": "57:20:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -206,10 +206,10 @@
               "id": 4,
               "name": "E",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 731,
+              "referencedDeclaration": 728,
               "src": "95:1:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_E_$731",
+                "typeIdentifier": "t_contract$_E_$728",
                 "typeString": "contract E"
               }
             },
@@ -224,10 +224,10 @@
               "id": 6,
               "name": "EE",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 756,
+              "referencedDeclaration": 753,
               "src": "98:2:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_EE_$756",
+                "typeIdentifier": "t_contract$_EE_$753",
                 "typeString": "contract EE"
               }
             },
@@ -237,8 +237,8 @@
           }
         ],
         "contractDependencies": [
-          731,
-          756
+          728,
+          753
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -246,8 +246,8 @@
         "id": 159,
         "linearizedBaseContracts": [
           159,
-          756,
-          731
+          753,
+          728
         ],
         "name": "M",
         "nodeType": "ContractDefinition",
@@ -1298,7 +1298,7 @@
             "scope": 159,
             "src": "110:685:0",
             "stateMutability": "view",
-            "superFunction": 718,
+            "superFunction": 715,
             "visibility": "external"
           },
           {
@@ -1420,7 +1420,7 @@
             "scope": 159,
             "src": "803:93:0",
             "stateMutability": "view",
-            "superFunction": 723,
+            "superFunction": 720,
             "visibility": "external"
           },
           {
@@ -1565,7 +1565,7 @@
             "scope": 159,
             "src": "904:116:0",
             "stateMutability": "view",
-            "superFunction": 730,
+            "superFunction": 727,
             "visibility": "external"
           },
           {
@@ -1605,7 +1605,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 771,
+                        "referencedDeclaration": 768,
                         "src": "1274:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2089,7 +2089,7 @@
             "scope": 159,
             "src": "1028:397:0",
             "stateMutability": "view",
-            "superFunction": 748,
+            "superFunction": 745,
             "visibility": "external"
           },
           {
@@ -2195,7 +2195,7 @@
             "scope": 159,
             "src": "1433:141:0",
             "stateMutability": "view",
-            "superFunction": 755,
+            "superFunction": 752,
             "visibility": "external"
           }
         ],
@@ -2235,7 +2235,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 732,
+        "sourceUnit": 729,
         "src": "36:19:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2246,7 +2246,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 160,
-        "sourceUnit": 757,
+        "sourceUnit": 754,
         "src": "57:20:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2260,10 +2260,10 @@
               "id": 4,
               "name": "E",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 731,
+              "referencedDeclaration": 728,
               "src": "95:1:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_E_$731",
+                "typeIdentifier": "t_contract$_E_$728",
                 "typeString": "contract E"
               }
             },
@@ -2278,10 +2278,10 @@
               "id": 6,
               "name": "EE",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 756,
+              "referencedDeclaration": 753,
               "src": "98:2:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_EE_$756",
+                "typeIdentifier": "t_contract$_EE_$753",
                 "typeString": "contract EE"
               }
             },
@@ -2291,8 +2291,8 @@
           }
         ],
         "contractDependencies": [
-          731,
-          756
+          728,
+          753
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -2300,8 +2300,8 @@
         "id": 159,
         "linearizedBaseContracts": [
           159,
-          756,
-          731
+          753,
+          728
         ],
         "name": "M",
         "nodeType": "ContractDefinition",
@@ -3352,7 +3352,7 @@
             "scope": 159,
             "src": "110:685:0",
             "stateMutability": "view",
-            "superFunction": 718,
+            "superFunction": 715,
             "visibility": "external"
           },
           {
@@ -3474,7 +3474,7 @@
             "scope": 159,
             "src": "803:93:0",
             "stateMutability": "view",
-            "superFunction": 723,
+            "superFunction": 720,
             "visibility": "external"
           },
           {
@@ -3619,7 +3619,7 @@
             "scope": 159,
             "src": "904:116:0",
             "stateMutability": "view",
-            "superFunction": 730,
+            "superFunction": 727,
             "visibility": "external"
           },
           {
@@ -3659,7 +3659,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 771,
+                        "referencedDeclaration": 768,
                         "src": "1274:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -4143,7 +4143,7 @@
             "scope": 159,
             "src": "1028:397:0",
             "stateMutability": "view",
-            "superFunction": 748,
+            "superFunction": 745,
             "visibility": "external"
           },
           {
@@ -4249,7 +4249,7 @@
             "scope": 159,
             "src": "1433:141:0",
             "stateMutability": "view",
-            "superFunction": 755,
+            "superFunction": 752,
             "visibility": "external"
           }
         ],
@@ -4265,7 +4265,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-06T14:26:29.561Z",
+  "updatedAt": "2019-04-07T04:04:33.398Z",
   "devdoc": {
     "methods": {}
   },
